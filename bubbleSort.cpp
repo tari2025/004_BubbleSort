@@ -22,11 +22,57 @@ void input(){ //prosedur untuk input
     cout<< "Masukkan elemen array"<< endl;
     cout<< "====================="<< endl;
 
-    
+    for (int i = 0; <n; i++){
+        int pass = 1; // step 1
 
+        do
+        {
+            for(int j=0 <= n-1-pass;j++)} //step 2
 
-void bubbleSortArray(){
-    int pass = 1//step 1
+            if (arr[j > arr[j+1]}
+           in temp;
+        temp = arr[j];
+    arr[j+1;
+    arr[j+1]= temp;}
+pass = pass+1; // step 4
+} while (pass<=n-1);// step 5
 }
+
+] ])
+        } while);
+    }
+
+    void display() {
+    cout << endl;
+    cout << "========================" << endl;
+    cout << "Element Array yang telah tersusun" << endl;
+    cout << "========================" << endl;
+    cout << endl;
+    for (int j = 0; j < n; j++) {
+        cout << arr[j]; // menampilkan array
+        if (j < n - 1) {
+            cout << " --> ";
+        }
+    }
+        cout << endl;
+        cout << endl;
+    
+        cout << "Jumlah pass = " << n - 1 << endl; // menampilkan jumlah dari pass
+        cout << endl;
+        cout << endl;
+    }
+    
+    int main (){
+    
+        input();
+    
+        bubbleSortArray();
+        display();
+    
+        system("pause");
+        return 0;
+    }
+        
+    
 
 }
