@@ -15,8 +15,15 @@ void input(){ //prosedur untuk input
         else{ //jika n lebih dari 20 
             count<< "\nArray dapat mempunyai maksiamal 20 element\n"<<endl; // output ke layar
             }
-            })
+        }
     }
+    cout<< endl;
+    cout<< "===================="<< endl;
+    cout<< "Masukkan elemen array"<< endl;
+    cout<< "====================="<< endl;
+
+    
+
 
 void bubbleSortArray(){
     int pass = 1//step 1
