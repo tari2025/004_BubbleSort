@@ -15,7 +15,6 @@ void input(){ //prosedur untuk input
         cout << "\nArray dapat mempunyai maksimal 20 element\n" << endl; //output ke layar
 
     }
-}
 cout << endl;
 cout << "=====================" << endl;
 cout << "Masukkan elemen array" << endl;

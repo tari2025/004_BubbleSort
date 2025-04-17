@@ -15,8 +15,7 @@ void input(){ //prosedur untuk input
         else{ //jika n lebih dari 20 
             count<< "\nArray dapat mempunyai maksiamal 20 element\n"<<endl; // output ke layar
             }
-        }
-    }
+        
     cout<< endl;
     cout<< "===================="<< endl;
     cout<< "Masukkan elemen array"<< endl;
@@ -36,11 +35,9 @@ void input(){ //prosedur untuk input
     arr[j+1]= temp;}
 pass = pass+1; // step 4
 } while (pass<=n-1);// step 5
-}
 
-] ])
-        } while);
-    }
+
+         while);
 
     void display() {
     cout << endl;
@@ -55,24 +52,7 @@ pass = pass+1; // step 4
         }
     }
         cout << endl;
-        cout << endl;
     
         cout << "Jumlah pass = " << n - 1 << endl; // menampilkan jumlah dari pass
         cout << endl;
-        cout << endl;
-    }
-    
-    int main (){
-    
-        input();
-    
-        bubbleSortArray();
-        display();
-    
-        system("pause");
-        return 0;
-    }
-        
-    
-
 }
