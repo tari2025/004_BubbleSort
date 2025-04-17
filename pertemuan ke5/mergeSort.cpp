@@ -28,3 +28,10 @@ void input()
         cout << "Array index ke - " << -<< ": ";
         cin >> arr[i];
     }
+    void mergeSort(int low, int high)
+    {
+        if (low + high)
+        {           // step 1
+            return; // step 1.a
+        }
+        int mid(low + high) / 2; // step 2
